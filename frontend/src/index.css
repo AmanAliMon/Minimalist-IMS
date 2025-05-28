@@ -1,0 +1,23 @@
+@import "tailwindcss";
+:root {
+  --cream: #fdf6e3;
+  --navy: #001f3f;
+  --navy-dark: #001a35;
+}
+
+.bg-cream {
+  background-color: var(--cream);
+}
+.text-cream {
+  color: var(--cream);
+}
+.bg-navy {
+  background-color: var(--navy);
+}
+.text-navy {
+  color: var(--navy);
+}
+.hover\:bg-navy-dark:hover {
+  background-color: var(--navy-dark);
+}
+
